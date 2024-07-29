@@ -2,8 +2,11 @@ import {React} from 'react'
 import "../design/header.css"
 function Header() {
     let url = window.location.pathname;
-    let what = ' '
+    let what = ' ';
     if (url === '/workintroduce'){
+        what = 'syj_lego'
+    }
+    else if (url === '/workintroduce/'){
         what = 'syj_lego'
     }
     else if (url === '/workintroduce/wxvin'){
