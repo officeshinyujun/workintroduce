@@ -1,8 +1,17 @@
+@font-face {
+  font-family: 'SUIT';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+}
 .indexcon{
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   background-color: #1e1e1e;
   height: 100vh;
-  font-family: "SUITE Variable";
+  font-family: "SUIT";
+}
+
+body{
+  padding: 0;
+  margin: 0;
 }

@@ -48,6 +48,7 @@ function MainPage() {
                                  onClick={() => openLightboxOnSlide(3)}/>
                         </li>
                     </ul>
+                    <h1 style={{color:"white"}}>Benz actrocs</h1>
                 </div>
 
                 <FsLightbox
