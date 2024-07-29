@@ -1,27 +1,82 @@
-.main-work-box{
+.main-work-box {
     width: 93%;
-    border: 1px solid red;
-    height: 350px;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(#131620, #131620), linear-gradient(to right, #7961a8 0%,  #233354 100%);
+    height: 250px;
     list-style: none;
     padding: 0;
     justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-bottom: 30px;
+    position: relative;
 }
-.main-work-box>ul>li{
-    display: inline;
-}
-.main-work-box>ul{
+
+.main-work-box > ul {
     padding: 0;
     margin: 0;
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center; /* 중앙 정렬 */
 }
-.main-container{
+
+.main-work-box > ul > li {
+    position: absolute;
+    top: 0;
+    left: 50%; /* 부모 요소의 가운데로 이동 */
+    transform: translateX(-70%); /* 가운데 정렬을 위한 변환 */
+    list-style: none;
+}
+
+.main-work-box > ul > li:nth-child(1) {
+    z-index: 3; /* 첫 번째 이미지가 맨 위로 오도록 설정 */
+}
+
+.main-work-box > ul > li:nth-child(2) {
+    z-index: 2; /* 두 번째 이미지 */
+    margin-left: 30px; /* 오른쪽으로 약간 이동 */
+}
+
+.main-work-box > ul > li:nth-child(3) {
+    z-index: 1; /* 세 번째 이미지 */
+    margin-left: 60px; /* 더 오른쪽으로 이동 */
+}
+
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-.main-page{
-    margin:0;
+
+.main-page {
+    margin: 0;
     padding: 0;
+}
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.modal-content{
+    width: 17.5%;
+    height: 80%;
+    border: 1.5px solid transparent;
+    background-image: linear-gradient(#131620, #131620), linear-gradient(to right, #7961a8 0%,  #233354 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 10px;
 }
