@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/workintroduce/static/css/main.91f72441.css",
+    "main.js": "/workintroduce/static/js/main.b27a47e6.js",
+    "static/js/453.353b167c.chunk.js": "/workintroduce/static/js/453.353b167c.chunk.js",
+    "static/media/logo.svg": "/workintroduce/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/workintroduce/index.html",
+    "main.91f72441.css.map": "/workintroduce/static/css/main.91f72441.css.map",
+    "main.b27a47e6.js.map": "/workintroduce/static/js/main.b27a47e6.js.map",
+    "453.353b167c.chunk.js.map": "/workintroduce/static/js/453.353b167c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91f72441.css",
+    "static/js/main.b27a47e6.js"
+  ]
+}
