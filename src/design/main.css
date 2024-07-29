@@ -82,3 +82,11 @@
     overflow-y: auto; /* 스크롤 가능하도록 설정 */
 
 }
+.footer{
+    color: white;
+    padding-left: 10px;
+}
+.footer>Link{
+    text-decoration: none;
+    color: white;
+}

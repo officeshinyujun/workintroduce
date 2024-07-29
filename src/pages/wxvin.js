@@ -5,9 +5,9 @@ import Header from "../component/header";
 import "../design/main.css";
 import {Link} from "react-router-dom";
 
-function MainPage() {
-    const [modalOpen, setModalOpen] = useState(false);
-    const [modalOpen2, setModalOpen2] = useState(false);
+function WxvinPage() {
+    const [modalOpen3, setModalOpen3] = useState(false);
+    const [modalOpen4, setModalOpen4] = useState(false);
 
     const [firstLightboxController, setFirstLightboxController] = useState({
         toggler: false,
@@ -34,45 +34,45 @@ function MainPage() {
     };
 
     const openModal = () => {
-        setModalOpen(true);
+        setModalOpen3(true);
     };
 
     const openModal2 = () =>{
-        setModalOpen2(true)
+        setModalOpen4(true);
     }
 
     return (
         <>
-            <Header />
+            <Header/>
             <div className="main-container">
                 <div className="main-work-box" onClick={openModal}>
                     <ul>
-                        <li style={{ marginRight: "0px" }}>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }} />
+                        <li style={{marginRight: "0px"}}>
+                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
                         </li>
                         <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }} />
+                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
                         </li>
                         <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }} />
+                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
                         </li>
                     </ul>
-                    <h1 style={{ color: "white" }}>Benz actrocs</h1>
+                    <h1 style={{color: "white"}}>Benz actrocs</h1>
                 </div>
 
                 <div className="main-work-box" onClick={openModal2}>
                     <ul>
                         <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" } }/>
+                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
                         </li>
                         <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }}/>
+                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
                         </li>
                         <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }}/>
+                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
                         </li>
                     </ul>
-                    <h1 style={{ color: "white" }}>JEEP Wrangler</h1>
+                    <h1 style={{color: "white"}}>JEEP Wrangler</h1>
                 </div>
 
                 <FsLightbox
@@ -97,12 +97,12 @@ function MainPage() {
             </div>
             <div className="footer">
                 <h3>other creaters</h3>
-                <p><Link to={"/workintroduce/wxvin"}>wxvin's work</Link></p>
+                <p><Link to={"/workintroduce/"}>syj_lego's work</Link></p>
                 <p><Link to={"/workintroduce/mangoo"}>mangoo's work</Link></p>
                 <p><Link to={"/workintroduce/haedam"}>headam's work</Link></p>
             </div>
 
-            {modalOpen && (
+            {modalOpen3 && (
                 <div className="modal-container">
                     <div className="modal-content">
                         <div style={{
@@ -128,13 +128,13 @@ function MainPage() {
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen(false)} style={{color: "white"}}>X</p>
+                            <p onClick={() => setModalOpen3(false)} style={{color: "white"}}>X</p>
                         </div>
                     </div>
                 </div>
             )}
 
-            {modalOpen2 && (
+            {modalOpen4 && (
                 <div className="modal-container">
                     <div className="modal-content">
                         <div style={{
@@ -160,7 +160,7 @@ function MainPage() {
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen2(false)} style={{color: "white"}}>X</p>
+                            <p onClick={() => setModalOpen4(false)} style={{color: "white"}}>X</p>
                         </div>
                     </div>
                 </div>
@@ -169,4 +169,4 @@ function MainPage() {
     );
 }
 
-export default MainPage;
+export default WxvinPage;
