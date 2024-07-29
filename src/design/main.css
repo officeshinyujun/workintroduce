@@ -1,0 +1,15 @@
+.main-work-box{
+    width: 80%;
+    border: 1px solid red;
+    height: 300px;
+    list-style: none;
+    padding: 0;
+}
+.main-work-box>ul>li{
+    display: inline;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

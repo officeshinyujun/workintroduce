@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import MainPage from "./pages/main";
 
 function App() {
   return (
     <div>
       <div>
-        asdf
+        <MainPage/>
       </div>
     </div>
   );
