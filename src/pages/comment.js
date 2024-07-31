@@ -1,6 +1,7 @@
 import { db } from "../lib/firebase";
 import { query, orderBy, onSnapshot , collection, addDoc } from "firebase/firestore";
-import {useState, useEffect} from "react";
+import { useState, useEffect } from "react";
+import "../design/coment.css"
 
 function Comment() {
 
@@ -25,6 +26,7 @@ function Comment() {
                 id: doc.id,
                 ...doc.data()
             }));
+            console.log("Comments fetched: ", commentsData);  // 데이터가 제대로 가져와지는지 확인
             setComments(commentsData);
         });
 
@@ -32,10 +34,10 @@ function Comment() {
     }, []);
 
     return(
-        <>
-            <div>
+        <div className="comment">
+            <div style={{width:'100%'}}>
                 {comments.map((comment) => (
-                    <div key={comment.id}>
+                    <div key={comment.id} className="comment-list">
                         <p>{comment.text}</p>
                     </div>
                 ))}
@@ -48,7 +50,7 @@ function Comment() {
                 ></input>
                 <button type="submit">Submit</button>
             </form>
-        </>
+        </div>
     )
 
 }
