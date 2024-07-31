@@ -45,33 +45,11 @@ function MainPage() {
         <>
             <Header />
             <div className="main-container">
-                <div className="main-work-box" onClick={openModal}>
-                    <ul>
-                        <li style={{ marginRight: "0px" }}>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }} />
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }} />
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }} />
-                        </li>
-                    </ul>
+                <div className="main-work-box1" onClick={openModal}>
                     <h1 style={{ color: "white" }}>Benz actrocs</h1>
                 </div>
 
                 <div className="main-work-box" onClick={openModal2}>
-                    <ul>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" } }/>
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }}/>
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{ width: "150px", height: "150px" }}/>
-                        </li>
-                    </ul>
                     <h1 style={{ color: "white" }}>JEEP Wrangler</h1>
                 </div>
 
@@ -95,28 +73,31 @@ function MainPage() {
                     slide={secondLightboxController.slide}
                 />
             </div>
+            <div style={{width:'100%',justifyContent:"center", alignItems:'center', display:"flex"}} >
+                <button className="button"><Link to={"/workintroduce/comment"} style={{textDecoration:"none", color:"white"}}>comment</Link></button>
+            </div>
             <div className="footer">
                 <h3>other creaters</h3>
-                <p><Link to={"/workintroduce/wxvin"}>wxvin's work</Link></p>
-                <p><Link to={"/workintroduce/mangoo"}>mangoo's work</Link></p>
-                <p><Link to={"/workintroduce/haedam"}>headam's work</Link></p>
+                <p><Link to={"/workintroduce/wxvin"} style={{textDecoration:"none", color:"white"}}>wxvin's work</Link></p>
+                <p><Link to={"/workintroduce/mangoo"} style={{textDecoration:"none", color:"white"}}>mangoo's work</Link></p>
+                <p><Link to={"/workintroduce/haedam"} style={{textDecoration:"none", color:"white"}}>headam's work</Link></p>
             </div>
+
 
             {modalOpen && (
                 <div className="modal-container">
                     <div className="modal-content">
+                        <img src={sideView} alt="Side view" style={{width: "100%"}}/>
+                        <h1>Benz actrocs</h1>
                         <div style={{
                             margin: "20px",
                             justifyContent: "center",
                             display: "flex",
                             alignItems: 'center',
                             flexDirection: "column",
-                            color: "white"
                         }}>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                            <h1>Benz actrocs</h1>
                             <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
+                            <img src={sideView} alt="Side view" style={{width: "150px", maxHeight: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(1)}/>
                             <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
@@ -128,7 +109,7 @@ function MainPage() {
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen(false)} style={{color: "white"}}>X</p>
+                            <p onClick={() => setModalOpen(false)} >X</p>
                         </div>
                     </div>
                 </div>
@@ -137,16 +118,17 @@ function MainPage() {
             {modalOpen2 && (
                 <div className="modal-container">
                     <div className="modal-content">
-                        <div style={{
+                        <img src={sideView} alt="Side view" style={{width: "100%"}}/>
+                        <div
+                            style={{
                             margin: "20px",
                             justifyContent: "center",
                             display: "flex",
                             alignItems: 'center',
                             flexDirection: "column",
-                            color: "white"
+
                         }}>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                            <h1>Benz actrocs</h1>
+                            <h1>JEEP Wrangler</h1>
                             <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(1)}/>
@@ -160,7 +142,7 @@ function MainPage() {
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen2(false)} style={{color: "white"}}>X</p>
+                            <p onClick={() => setModalOpen2(false)}>X</p>
                         </div>
                     </div>
                 </div>

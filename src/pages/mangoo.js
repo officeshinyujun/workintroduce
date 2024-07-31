@@ -5,9 +5,9 @@ import Header from "../component/header";
 import "../design/main.css";
 import {Link} from "react-router-dom";
 
-function MangooPage() {
-    const [modalOpen3, setModalOpen3] = useState(false);
-    const [modalOpen4, setModalOpen4] = useState(false);
+function MainPage() {
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalOpen2, setModalOpen2] = useState(false);
 
     const [firstLightboxController, setFirstLightboxController] = useState({
         toggler: false,
@@ -34,46 +34,23 @@ function MangooPage() {
     };
 
     const openModal = () => {
-        setModalOpen3(true);
+        setModalOpen(true);
     };
 
     const openModal2 = () =>{
-        setModalOpen4(true);
+        setModalOpen2(true)
     }
 
     return (
         <>
-            <Header/>
-
+            <Header />
             <div className="main-container">
-                <div className="main-work-box" onClick={openModal}>
-                    <ul>
-                        <li style={{marginRight: "0px"}}>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                        </li>
-                    </ul>
-                    <h1 style={{color: "white"}}>Benz actrocs</h1>
+                <div className="main-work-box1" onClick={openModal}>
+                    <h1 style={{ color: "white" }}>Benz actrocs</h1>
                 </div>
 
                 <div className="main-work-box" onClick={openModal2}>
-                    <ul>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                        </li>
-                        <li>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                        </li>
-                    </ul>
-                    <h1 style={{color: "white"}}>JEEP Wrangler</h1>
+                    <h1 style={{ color: "white" }}>JEEP Wrangler</h1>
                 </div>
 
                 <FsLightbox
@@ -96,28 +73,31 @@ function MangooPage() {
                     slide={secondLightboxController.slide}
                 />
             </div>
+            <div style={{width:'100%',justifyContent:"center", alignItems:'center', display:"flex"}} >
+                <button className="button"><Link to={"/workintroduce/comment"} style={{textDecoration:"none", color:"white"}}>comment</Link></button>
+            </div>
             <div className="footer">
                 <h3>other creaters</h3>
-                <p><Link to={"/workintroduce/wxvin"}>wxvin's work</Link></p>
-                <p><Link to={"/workintroduce/"}>syj_lego's work</Link></p>
-                <p><Link to={"/workintroduce/haedam"}>headam's work</Link></p>
+                <p><Link to={"/workintroduce/wxvin"} style={{textDecoration:"none", color:"white"}}>wxvin's work</Link></p>
+                <p><Link to={"/workintroduce/"} style={{textDecoration:"none", color:"white"}}>syj_lego's work</Link></p>
+                <p><Link to={"/workintroduce/haedam"} style={{textDecoration:"none", color:"white"}}>headam's work</Link></p>
             </div>
 
-            {modalOpen3 && (
+
+            {modalOpen && (
                 <div className="modal-container">
                     <div className="modal-content">
+                        <img src={sideView} alt="Side view" style={{width: "100%"}}/>
+                        <h1>Benz actrocs</h1>
                         <div style={{
                             margin: "20px",
                             justifyContent: "center",
                             display: "flex",
                             alignItems: 'center',
                             flexDirection: "column",
-                            color: "white"
                         }}>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                            <h1>Benz actrocs</h1>
                             <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
+                            <img src={sideView} alt="Side view" style={{width: "150px", maxHeight: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(1)}/>
                             <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
@@ -129,25 +109,26 @@ function MangooPage() {
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen3(false)} style={{color: "white"}}>X</p>
+                            <p onClick={() => setModalOpen(false)} >X</p>
                         </div>
                     </div>
                 </div>
             )}
 
-            {modalOpen4 && (
+            {modalOpen2 && (
                 <div className="modal-container">
                     <div className="modal-content">
-                        <div style={{
-                            margin: "20px",
-                            justifyContent: "center",
-                            display: "flex",
-                            alignItems: 'center',
-                            flexDirection: "column",
-                            color: "white"
-                        }}>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}/>
-                            <h1>Benz actrocs</h1>
+                        <img src={sideView} alt="Side view" style={{width: "100%"}}/>
+                        <div
+                            style={{
+                                margin: "20px",
+                                justifyContent: "center",
+                                display: "flex",
+                                alignItems: 'center',
+                                flexDirection: "column",
+
+                            }}>
+                            <h1>JEEP Wrangler</h1>
                             <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(1)}/>
@@ -161,7 +142,7 @@ function MangooPage() {
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen4(false)} style={{color: "white"}}>X</p>
+                            <p onClick={() => setModalOpen2(false)}>X</p>
                         </div>
                     </div>
                 </div>
@@ -170,4 +151,4 @@ function MangooPage() {
     );
 }
 
-export default MangooPage;
+export default MainPage;

@@ -24,7 +24,7 @@ function Header() {
     return(
         <>
             <div className="header-container">
-                <div style={{color:"white", fontWeight:"bold", fontSize:"30px"}}>{what}'s work</div>
+                <div style={{fontWeight:"bold", fontSize:"30px"}}>{what}'s work</div>
             </div>
         </>
     )
