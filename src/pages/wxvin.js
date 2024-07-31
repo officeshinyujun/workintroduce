@@ -4,6 +4,13 @@ import sideView from "../image/sideView.jpg";
 import Header from "../component/header";
 import "../design/main.css";
 import {Link} from "react-router-dom";
+import wxvin11 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-06 001.png"
+import wxvin12 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-06 002.png"
+import wxvin13 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-06 003.png"
+import wxvin21 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-24 001.png"
+import wxvin22 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-25 002.png"
+import wxvin23 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-25 003.png"
+import wxvin24 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-38.png"
 
 function MainPage() {
     const [modalOpen, setModalOpen] = useState(false);
@@ -45,20 +52,20 @@ function MainPage() {
         <>
             <Header />
             <div className="main-container">
-                <div className="main-work-box1" onClick={openModal}>
-                    <h1 style={{ color: "white" }}>Benz actrocs</h1>
+                <div className="main-work-box-wxvin1" onClick={openModal}>
+                    <h1 style={{ color: "white" }}>Clash Royal - Spaky</h1>
                 </div>
 
-                <div className="main-work-box" onClick={openModal2}>
-                    <h1 style={{ color: "white" }}>JEEP Wrangler</h1>
+                <div className="main-work-box-wxvin2" onClick={openModal2}>
+                    <h1 style={{color: "white", textAlign:"center"}}>Optimus Frime & Megatron</h1>
                 </div>
 
                 <FsLightbox
                     toggler={firstLightboxController.toggler}
                     sources={[
-                        sideView,
-                        'https://i.imgur.com/3egL60k.jpg',
-                        'https://i.imgur.com/RpzrMR2.jpg'
+                        wxvin11,
+                        wxvin12,
+                        wxvin13
                     ]}
                     slide={firstLightboxController.slide}
                 />
@@ -66,9 +73,10 @@ function MainPage() {
                 <FsLightbox
                     toggler={secondLightboxController.toggler}
                     sources={[
-                        'https://i.imgur.com/3egL60k.jpg',
-                        'https://i.imgur.com/RpzrMR2.jpg',
-                        sideView
+                        wxvin21,
+                        wxvin22,
+                        wxvin23,
+                        wxvin24
                     ]}
                     slide={secondLightboxController.slide}
                 />
@@ -87,8 +95,8 @@ function MainPage() {
             {modalOpen && (
                 <div className="modal-container">
                     <div className="modal-content">
-                        <img src={sideView} alt="Side view" style={{width: "100%"}}/>
-                        <h1>Benz actrocs</h1>
+                        <img src={wxvin11} alt="Side view" style={{width: "100%"}}/>
+                        <h1>Clash Royal - Spaky</h1>
                         <div style={{
                             margin: "20px",
                             justifyContent: "center",
@@ -96,18 +104,12 @@ function MainPage() {
                             alignItems: 'center',
                             flexDirection: "column",
                         }}>
-                            <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", maxHeight: "150px"}}
+                            <p>클래시 로얄의 스파키를 모티브로 만들었습니다. </p>
+                            <img src={wxvin11} alt="Side view" style={{width: "150px", maxHeight: "150px", marginBottom:"20px"}}
                                  onClick={() => openFirstLightboxOnSlide(1)}/>
-                            <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
+                            <img src={wxvin12} alt="Side view" style={{width: "150px", height: "150px", marginBottom:"20px"}}
                                  onClick={() => openFirstLightboxOnSlide(2)}/>
-                            <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
-                                 onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
-                                 onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
+                            <img src={wxvin13} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
                             <p onClick={() => setModalOpen(false)} >X</p>
                         </div>
@@ -118,7 +120,7 @@ function MainPage() {
             {modalOpen2 && (
                 <div className="modal-container">
                     <div className="modal-content">
-                        <img src={sideView} alt="Side view" style={{width: "100%"}}/>
+                        <img src={wxvin21} alt="Side view" style={{width: "100%"}}/>
                         <div
                             style={{
                                 margin: "20px",
@@ -128,20 +130,17 @@ function MainPage() {
                                 flexDirection: "column",
 
                             }}>
-                            <h1>JEEP Wrangler</h1>
-                            <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
+                            <h1  style ={{textAlign:"center"}}>Optimus Frime & Megatron</h1>
+                            <p>트랜스포머 5 최후의 기사에 나온 옵티머스와 메가트론 입니다</p>
+                            <p style={{color:"gray"}}>These are Optimus and Megatron from Transformers 5 The Last Knight.</p>
+                            <img src={wxvin21} alt="Side view" style={{width: "200px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(1)}/>
-                            <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
+                            <img src={wxvin22} alt="Side view" style={{width: "200px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(2)}/>
-                            <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
+                            <img src={wxvin23} alt="Side view" style={{width: "200px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
-                                 onClick={() => openSecondLightboxOnSlide(3)}/>
-                            <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
-                                 onClick={() => openSecondLightboxOnSlide(3)}/>
+                            <img src={wxvin24} alt="Side view" style={{width: "200px", height: "150px"}}
+                                 onClick={() => openSecondLightboxOnSlide(4)}/>
                             <p onClick={() => setModalOpen2(false)}>X</p>
                         </div>
                     </div>

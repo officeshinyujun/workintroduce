@@ -12,6 +12,10 @@
     justify-content:start;
     text-align: center;
     border-bottom :1px solid #c2c2c2;
+    align-items: center;
+}
+.comment-list>svg{
+    margin-right: 10px;
 }
 .comment-form{
     width: 100%;
