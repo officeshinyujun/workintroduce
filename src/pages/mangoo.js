@@ -5,6 +5,7 @@ import Header from "../component/header";
 import "../design/main.css";
 import {Link} from "react-router-dom";
 
+
 function MainPage() {
     const [modalOpen, setModalOpen] = useState(false);
     const [modalOpen2, setModalOpen2] = useState(false);
@@ -56,9 +57,7 @@ function MainPage() {
                 <FsLightbox
                     toggler={firstLightboxController.toggler}
                     sources={[
-                        sideView,
-                        'https://i.imgur.com/3egL60k.jpg',
-                        'https://i.imgur.com/RpzrMR2.jpg'
+
                     ]}
                     slide={firstLightboxController.slide}
                 />
@@ -66,9 +65,7 @@ function MainPage() {
                 <FsLightbox
                     toggler={secondLightboxController.toggler}
                     sources={[
-                        'https://i.imgur.com/3egL60k.jpg',
-                        'https://i.imgur.com/RpzrMR2.jpg',
-                        sideView
+
                     ]}
                     slide={secondLightboxController.slide}
                 />
@@ -118,7 +115,7 @@ function MainPage() {
             {modalOpen2 && (
                 <div className="modal-container">
                     <div className="modal-content">
-                        <img src={sideView} alt="Side view" style={{width: "100%"}}/>
+                        <img alt="Side view" style={{width: "100%"}}/>
                         <div
                             style={{
                                 margin: "20px",
@@ -139,9 +136,9 @@ function MainPage() {
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
-                                 onClick={() => openSecondLightboxOnSlide(3)}/>
+                                 onClick={() => openSecondLightboxOnSlide(4)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
-                                 onClick={() => openSecondLightboxOnSlide(3)}/>
+                                 onClick={() => openSecondLightboxOnSlide(5)}/>
                             <p onClick={() => setModalOpen2(false)}>X</p>
                         </div>
                     </div>
