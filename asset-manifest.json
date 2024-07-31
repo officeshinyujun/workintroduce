@@ -1,18 +1,27 @@
 {
   "files": {
-    "main.css": "/workintroduce/static/css/main.2fbc584c.css",
-    "main.js": "/workintroduce/static/js/main.52b91f0c.js",
+    "main.css": "/workintroduce/static/css/main.7a7f46d0.css",
+    "main.js": "/workintroduce/static/js/main.ad35316e.js",
     "static/js/453.353b167c.chunk.js": "/workintroduce/static/js/453.353b167c.chunk.js",
     "static/media/20240303 121713.jpg": "/workintroduce/static/media/20240303 121713.48e373e266d94129d788.jpg",
     "static/media/sideView.jpg": "/workintroduce/static/media/sideView.e25e1d9fa00c8bd44a5e.jpg",
     "static/media/KakaoTalk_Photo_2024-07-31-17-34-46.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-17-34-46.5283af81a5dfef7141ae.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-48 002.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-48 002.3b6e418264e67bde42e5.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-31 001.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-31 001.bc96c343804c1455ebb1.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-48 001.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-48 001.dd37ad03bf59eb833319.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-32 004.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-32 004.ce6e2f6d9b64a3bd3a85.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-48 005.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-48 005.a983d5e761a26bba217c.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-48 003.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-48 003.9d1d929c6f1ea11fcfe4.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-48 004.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-48 004.6e8b579a7eea535c1712.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-32 002.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-32 002.b95a359429dc13c7f8e0.jpeg",
+    "static/media/KakaoTalk_Photo_2024-07-31-22-47-32 003.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-32 003.33eb955a02560d7e91d1.jpeg",
     "index.html": "/workintroduce/index.html",
-    "main.2fbc584c.css.map": "/workintroduce/static/css/main.2fbc584c.css.map",
-    "main.52b91f0c.js.map": "/workintroduce/static/js/main.52b91f0c.js.map",
+    "main.7a7f46d0.css.map": "/workintroduce/static/css/main.7a7f46d0.css.map",
+    "main.ad35316e.js.map": "/workintroduce/static/js/main.ad35316e.js.map",
     "453.353b167c.chunk.js.map": "/workintroduce/static/js/453.353b167c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fbc584c.css",
-    "static/js/main.52b91f0c.js"
+    "static/css/main.7a7f46d0.css",
+    "static/js/main.ad35316e.js"
   ]
 }
