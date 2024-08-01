@@ -4,6 +4,7 @@ import sideView from "../image/sideView.jpg";
 import Header from "../component/header";
 import "../design/main.css";
 import {Link} from "react-router-dom";
+import logo from "../image/Instagram-Logo.wine.svg";
 
 function MainPage() {
     const [modalOpen, setModalOpen] = useState(false);
@@ -109,7 +110,14 @@ function MainPage() {
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen(false)} >X</p>
+                            <div style={{width: '100%', display: "flex", flexDirection: "row", alignItems: "center"}}>
+                                <a href={"https://www.instagram.com/syj_lego/"}
+                                   style={{textDecoration: "none", color: "black"}}>
+                                    <img src={logo} style={{width: '50px', height: '50px'}}/>
+                                </a>
+                                <div> - creater's instargram</div>
+                            </div>
+                            <p onClick={() => setModalOpen(false)}>X</p>
                         </div>
                     </div>
                 </div>
@@ -121,13 +129,13 @@ function MainPage() {
                         <img src={sideView} alt="Side view" style={{width: "100%"}}/>
                         <div
                             style={{
-                            margin: "20px",
-                            justifyContent: "center",
-                            display: "flex",
-                            alignItems: 'center',
-                            flexDirection: "column",
+                                margin: "20px",
+                                justifyContent: "center",
+                                display: "flex",
+                                alignItems: 'center',
+                                flexDirection: "column",
 
-                        }}>
+                            }}>
                             <h1>JEEP Wrangler</h1>
                             <p>글글글그르그그를르르르르르르그를르그ㅏ르가르가르가륵르</p>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
@@ -142,6 +150,13 @@ function MainPage() {
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
                             <img src={sideView} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
+                            <div style={{width: '100%', display: "flex", flexDirection: "row", alignItems: "center"}}>
+                                <a href={"https://www.instagram.com/syj_lego/"}
+                                   style={{textDecoration: "none", color: "black"}}>
+                                    <img src={logo} style={{width: '50px', height: '50px'}}/>
+                                </a>
+                                <div> - creater's instargram</div>
+                            </div>
                             <p onClick={() => setModalOpen2(false)}>X</p>
                         </div>
                     </div>

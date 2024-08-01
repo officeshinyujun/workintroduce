@@ -13,6 +13,7 @@ import haedam22 from "../image/haedam/KakaoTalk_Photo_2024-07-31-22-47-48 002.jp
 import haedam23 from "../image/haedam/KakaoTalk_Photo_2024-07-31-22-47-48 003.jpeg"
 import haedam24 from "../image/haedam/KakaoTalk_Photo_2024-07-31-22-47-48 004.jpeg";
 import haedam25 from "../image/haedam/KakaoTalk_Photo_2024-07-31-22-47-48 005.jpeg"
+import logo from "../image/Instagram-Logo.wine.svg"
 
 function MainPage() {
     const [modalOpen, setModalOpen] = useState(false);
@@ -65,7 +66,7 @@ function MainPage() {
                 <FsLightbox
                     toggler={firstLightboxController.toggler}
                     sources={[
-                        haedam13,
+                        haedam14,
                         haedam12,
                         haedam13,
                         haedam11
@@ -110,8 +111,11 @@ function MainPage() {
                         }}>
                             <img src={haedam14} alt="Side view" style={{width: "150px", maxHeight: "150px",}}
                                  onClick={() => openFirstLightboxOnSlide(1)}/>
-                            <p>이 작품은 [스타워즈]라는 거대 프랜차이즈에 등장하는 '클론트루퍼'를 모티브로 한 것입니다. 클론트루퍼는 페이즈 1 버전과 페이즈 2 버전으로 나뉘는데, 제가 만든 작품은 페이즈 1 버전의 클론트루퍼 헬멧입니다.</p>
-                            <p style={{color: "gray"}}>This piece is inspired by the "Clone Trooper" from the massive "Star Wars" franchise. Clone Troopers are divided into Phase 1 and Phase 2 versions, and the work I've created is of a Phase 1 Clone Trooper helmet.
+                            <p>이 작품은 [스타워즈]라는 거대 프랜차이즈에 등장하는 '클론트루퍼'를 모티브로 한 것입니다. 클론트루퍼는 페이즈 1 버전과 페이즈 2 버전으로 나뉘는데, 제가
+                                만든 작품은 페이즈 1 버전의 클론트루퍼 헬멧입니다.</p>
+                            <p style={{color: "gray"}}>This piece is inspired by the "Clone Trooper" from the massive
+                                "Star Wars" franchise. Clone Troopers are divided into Phase 1 and Phase 2 versions, and
+                                the work I've created is of a Phase 1 Clone Trooper helmet.
                             </p>
                             <div style={{
                                 display: "flex",
@@ -125,16 +129,31 @@ function MainPage() {
                                 <img src={haedam13} alt="Side view" style={{width: "100px", height: "100px"}}
                                      onClick={() => openFirstLightboxOnSlide(3)}/>
                             </div>
-                            <p>작중에서 클론트루퍼는 주인공인 제다이들을 보호하고 함께 전투에 참가하는 군인들로 등장합니다. 그들은 전장에서 엄청난 병사들로서 한꺼번에 나타나는 장면들이 인상적입니다.</p>
-                            <p style={{color: "gray"}}>In the series, Clone Troopers protect the protagonists, the Jedi, and participate in battles alongside them. They are depicted as formidable soldiers who appear en masse in impressive battle scenes.</p>
+                            <p>작중에서 클론트루퍼는 주인공인 제다이들을 보호하고 함께 전투에 참가하는 군인들로 등장합니다. 그들은 전장에서 엄청난 병사들로서 한꺼번에 나타나는 장면들이
+                                인상적입니다.</p>
+                            <p style={{color: "gray"}}>In the series, Clone Troopers protect the protagonists, the Jedi,
+                                and participate in battles alongside them. They are depicted as formidable soldiers who
+                                appear en masse in impressive battle scenes.</p>
                             <img src={haedam11} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <p>이번 작품에서는 클론트루퍼의 전신이 아닌 헬멧만 표현했습니다. 시간적인 제약이 있었기에 급하게 전체를 만들기보다는, 나중에 더 많은 시간을 투자하여 더욱 멋진 작품을 만드는 것이 좋겠다고 판단했습니다. 특히, 이 작품은 stud.io 2.0을 사용해 처음으로 제작한 후 실물로 복원한 것이라 더욱 의미가 있습니다.</p>
-                            <p style={{color: "gray"}}>For this project, I chose to represent only the helmet of the Clone Trooper rather than the entire body. Given time constraints, I decided it was better to invest more time later to create a more impressive piece rather than rushing to complete the whole figure. This work is particularly meaningful to me as it is the first one I created using stud.io 2.0 and then recreated in physical form.
+                            <p>이번 작품에서는 클론트루퍼의 전신이 아닌 헬멧만 표현했습니다. 시간적인 제약이 있었기에 급하게 전체를 만들기보다는, 나중에 더 많은 시간을 투자하여 더욱 멋진
+                                작품을 만드는 것이 좋겠다고 판단했습니다. 특히, 이 작품은 stud.io 2.0을 사용해 처음으로 제작한 후 실물로 복원한 것이라 더욱 의미가
+                                있습니다.</p>
+                            <p style={{color: "gray"}}>For this project, I chose to represent only the helmet of the
+                                Clone Trooper rather than the entire body. Given time constraints, I decided it was
+                                better to invest more time later to create a more impressive piece rather than rushing
+                                to complete the whole figure. This work is particularly meaningful to me as it is the
+                                first one I created using stud.io 2.0 and then recreated in physical form.
                             </p>
                             <p>작품은 비록 작지만, 재미있게 감상해주셨으면 좋겠습니다. 감사합니다.</p>
                             <p style={{color: "gray"}}>Though it is a small piece, I hope you enjoy it. Thank you.</p>
-
+                            <div style={{width: '100%', display: "flex", flexDirection: "row", alignItems: "center"}}>
+                                <a href={"https://www.instagram.com/haedam_bricks/"}
+                                   style={{textDecoration: "none", color: "black"}}>
+                                    <img src={logo} style={{width: '50px', height: '50px'}}/>
+                                </a>
+                                <div> - creater's instargram</div>
+                            </div>
                             <p onClick={() => setModalOpen(false)}>X</p>
                         </div>
                     </div>
@@ -143,8 +162,9 @@ function MainPage() {
 
             {modalOpen2 && (
                 <div className="modal-container">
-                <div className="modal-content">
-                        <img src={haedam21} alt="Side view" style={{width: "100%"}} onClick={() => openSecondLightboxOnSlide(1)}/>
+                    <div className="modal-content">
+                        <img src={haedam21} alt="Side view" style={{width: "100%"}}
+                             onClick={() => openSecondLightboxOnSlide(1)}/>
                         <div
                             style={{
                                 margin: "20px",
@@ -182,13 +202,23 @@ function MainPage() {
                             </p>
                             <img src={haedam24} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(4)}/>
-                            <p> R2-D2의 둥근 머리 표현도 고민이 많았지만, 해외 창작품들을 참고하여 저만의 스타일로 만들었습니다. 원하는 크기에 맞춰 귀엽게 완성된 것에 매우 만족합니다.</p>
-                            <p style={{color: "gray"}}> There was also a lot of consideration for representing R2-D2's rounded head. I referred to many overseas creations and made it in my own style. I'm very satisfied that it turned out cute and to the size I wanted.</p>
+                            <p> R2-D2의 둥근 머리 표현도 고민이 많았지만, 해외 창작품들을 참고하여 저만의 스타일로 만들었습니다. 원하는 크기에 맞춰 귀엽게 완성된 것에 매우
+                                만족합니다.</p>
+                            <p style={{color: "gray"}}> There was also a lot of consideration for representing R2-D2's
+                                rounded head. I referred to many overseas creations and made it in my own style. I'm
+                                very satisfied that it turned out cute and to the size I wanted.</p>
                             <img src={haedam25} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(5)}/>
                             <p> 지금까지 C-3PO와 R2-D2 작품 소개였습니다. 제 작품을 감상하시며 즐거운 시간을 보내시길 바랍니다. 감사합니다.</p>
-                            <p style={{color: "gray"}}> This was the introduction to my C-3PO and R2-D2 creations. I hope you enjoy viewing my works and have a pleasant time. Thank you.</p>
-
+                            <p style={{color: "gray"}}> This was the introduction to my C-3PO and R2-D2 creations. I
+                                hope you enjoy viewing my works and have a pleasant time. Thank you.</p>
+                            <div style={{width: '100%', display: "flex", flexDirection: "row", alignItems: "center"}}>
+                                <a href={"https://www.instagram.com/haedam_bricks/"}
+                                   style={{textDecoration: "none", color: "black"}}>
+                                    <img src={logo} style={{width: '50px', height: '50px'}}/>
+                                </a>
+                                <div> - creater's instargram</div>
+                            </div>
                             <p onClick={() => setModalOpen2(false)}>X</p>
                         </div>
                     </div>

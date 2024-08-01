@@ -11,6 +11,7 @@ import wxvin21 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-24 001.png"
 import wxvin22 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-25 002.png"
 import wxvin23 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-25 003.png"
 import wxvin24 from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-38.png"
+import logo from "../image/Instagram-Logo.wine.svg";
 
 function MainPage() {
     const [modalOpen, setModalOpen] = useState(false);
@@ -105,13 +106,22 @@ function MainPage() {
                             flexDirection: "column",
                         }}>
                             <p>클래시 로얄의 스파키를 모티브로 만들었습니다. </p>
-                            <img src={wxvin11} alt="Side view" style={{width: "150px", maxHeight: "150px", marginBottom:"20px"}}
+                            <img src={wxvin11} alt="Side view"
+                                 style={{width: "150px", maxHeight: "150px", marginBottom: "20px"}}
                                  onClick={() => openFirstLightboxOnSlide(1)}/>
-                            <img src={wxvin12} alt="Side view" style={{width: "150px", height: "150px", marginBottom:"20px"}}
+                            <img src={wxvin12} alt="Side view"
+                                 style={{width: "150px", height: "150px", marginBottom: "20px"}}
                                  onClick={() => openFirstLightboxOnSlide(2)}/>
                             <img src={wxvin13} alt="Side view" style={{width: "150px", height: "150px"}}
                                  onClick={() => openFirstLightboxOnSlide(3)}/>
-                            <p onClick={() => setModalOpen(false)} >X</p>
+                            <div style={{width: '100%', display: "flex", flexDirection: "row", alignItems: "center"}}>
+                                <a href={"https://www.instagram.com/vinjas.kr/"}
+                                   style={{textDecoration: "none", color: "black"}}>
+                                    <img src={logo} style={{width: '50px', height: '50px'}}/>
+                                </a>
+                                <div> - creater's instargram</div>
+                            </div>
+                            <p onClick={() => setModalOpen(false)}>X</p>
                         </div>
                     </div>
                 </div>
@@ -130,9 +140,10 @@ function MainPage() {
                                 flexDirection: "column",
 
                             }}>
-                            <h1  style ={{textAlign:"center"}}>Optimus Frime & Megatron</h1>
+                            <h1 style={{textAlign: "center"}}>Optimus Frime & Megatron</h1>
                             <p>트랜스포머 5 최후의 기사에 나온 옵티머스와 메가트론 입니다</p>
-                            <p style={{color:"gray"}}>These are Optimus and Megatron from Transformers 5 The Last Knight.</p>
+                            <p style={{color: "gray"}}>These are Optimus and Megatron from Transformers 5 The Last
+                                Knight.</p>
                             <img src={wxvin21} alt="Side view" style={{width: "200px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(1)}/>
                             <img src={wxvin22} alt="Side view" style={{width: "200px", height: "150px"}}
@@ -141,6 +152,13 @@ function MainPage() {
                                  onClick={() => openSecondLightboxOnSlide(3)}/>
                             <img src={wxvin24} alt="Side view" style={{width: "200px", height: "150px"}}
                                  onClick={() => openSecondLightboxOnSlide(4)}/>
+                            <div style={{width: '100%', display: "flex", flexDirection: "row", alignItems: "center"}}>
+                                <a href={"https://www.instagram.com/vinjas.kr"}
+                                   style={{textDecoration: "none", color: "black"}}>
+                                    <img src={logo} style={{width: '50px', height: '50px'}}/>
+                                </a>
+                                <div> - creater's instargram</div>
+                            </div>
                             <p onClick={() => setModalOpen2(false)}>X</p>
                         </div>
                     </div>
