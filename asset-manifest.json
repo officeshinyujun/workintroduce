@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/workintroduce/static/css/main.d554129d.css",
-    "main.js": "/workintroduce/static/js/main.e4b99c46.js",
+    "main.js": "/workintroduce/static/js/main.1aba0c39.js",
     "static/js/453.353b167c.chunk.js": "/workintroduce/static/js/453.353b167c.chunk.js",
     "static/media/20240303 121713.jpg": "/workintroduce/static/media/20240303 121713.48e373e266d94129d788.jpg",
     "static/media/sideView.jpg": "/workintroduce/static/media/sideView.e25e1d9fa00c8bd44a5e.jpg",
@@ -32,11 +32,11 @@
     "static/media/Instagram-Logo.wine.svg": "/workintroduce/static/media/Instagram-Logo.wine.22bda4c250235f5d99c5c75e2537147e.svg",
     "index.html": "/workintroduce/index.html",
     "main.d554129d.css.map": "/workintroduce/static/css/main.d554129d.css.map",
-    "main.e4b99c46.js.map": "/workintroduce/static/js/main.e4b99c46.js.map",
+    "main.1aba0c39.js.map": "/workintroduce/static/js/main.1aba0c39.js.map",
     "453.353b167c.chunk.js.map": "/workintroduce/static/js/453.353b167c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d554129d.css",
-    "static/js/main.e4b99c46.js"
+    "static/js/main.1aba0c39.js"
   ]
 }
