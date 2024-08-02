@@ -8,5 +8,16 @@
 <body>
 <noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="root"></div>
+<script type="text/javascript">
+  // URL의 쿼리 매개변수에서 경로를 추출
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+  const path = getQueryParam('path');
+  if (path) {
+    window.history.replaceState({}, '', path);
+  }
+</script>
 </body>
 </html>

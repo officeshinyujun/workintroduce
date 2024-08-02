@@ -22,6 +22,8 @@ function MainPage() {
         slide: 1
     });
 
+    console.log(window.location.pathname)
+
     const openFirstLightboxOnSlide = (slide) => {
         setFirstLightboxController({
             toggler: !firstLightboxController.toggler,
