@@ -1,0 +1,66 @@
+.main-page{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-page-header{
+    width: 100%;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thisisimage{
+    width: 100%;
+    height: calc((100% - 70px)/4);
+    background-image: url('../image/mangoo/KakaoTalk_Photo_2024-08-02-01-08-33 001.jpeg');
+    background-size: cover; /* 이미지를 컨테이너의 크기에 맞게 확대/축소 */
+    background-repeat: no-repeat;
+}
+.imagebase{
+    width: 100%;
+    height: calc((100% - 70px)/4);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    background: linear-gradient(to right ,rgba(255,255,255, 0.1), rgba(0,0,0, 0.8));
+    text-decoration: none;
+}
+.imagebase2{
+    width: 100%;
+    height: calc((100vh - 70px)/4);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    background: linear-gradient(to left ,rgba(255,255,255, 0.1), rgba(0,0,0, 0.8));
+    text-decoration: none;
+}
+.thisisimage2{
+    width: 100%;
+    height: calc((100% - 70px)/4);
+    background-image: url('../image/20240303 121713.jpg');
+    background-size: cover; /* 이미지를 컨테이너의 크기에 맞게 확대/축소 */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.thisisimage3{
+    width: 100%;
+    height: calc((100% - 70px)/4);
+    background-image: url('../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-24 001.png');
+    background-size: cover; /* 이미지를 컨테이너의 크기에 맞게 확대/축소 */
+    background-repeat: no-repeat;
+}
+.thisisimage4{
+    width: 100%;
+    height: calc((100% - 70px)/4);
+    background-image: url('../image/haedam/KakaoTalk_Photo_2024-07-31-22-47-31 001.jpeg');
+    background-size: cover; /* 이미지를 컨테이너의 크기에 맞게 확대/축소 */
+    background-position: center;
+    background-repeat: no-repeat;
+}
