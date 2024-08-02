@@ -59,7 +59,7 @@
 .main-work-box {
     width: 93%;
     border-radius: 10px;
-    background-image: url("../image/KakaoTalk_Photo_2024-07-31-17-34-46.jpeg");
+    background-image: url("../image/syj_lego/KakaoTalk_Photo_2024-08-02-22-04-23 006.jpeg");
     background-size: cover;
     height: 250px;
     background-position: center;
@@ -185,6 +185,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
 }
 .footer{

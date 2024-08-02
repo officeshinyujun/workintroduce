@@ -7,6 +7,7 @@ import haedamphoto from  "../image/haedam/KakaoTalk_Photo_2024-07-31-22-47-31 00
 import mangoophoto from "../image/mangoo/KakaoTalk_Photo_2024-08-02-01-08-33 001.jpeg"
 import wxvinphoto from "../image/wxvin/KakaoTalk_Photo_2024-08-01-00-22-06 001.png"
 import myphoto from "../image/sideView.jpg"
+import Logomain from "../image/GitHub-Icon-White-Logo.wine.svg"
 import {calculateNewValue} from "@testing-library/user-event/dist/utils";
 import {Link} from "react-router-dom";
 
@@ -20,7 +21,7 @@ function MainPage() {
                 <Link to="/workintroduce/mangoo">
                 <div className="thisisimage">
                     <div className="imagebase">
-                        <h1  style={{color:"white" ,marginRight:"20px"}}>jaewon's</h1>
+                        <h1 style={{color:"white" ,marginRight:"20px"}}>jaewon's</h1>
                         <h1 style={{color:"white" ,marginRight:"20px"}}>work</h1>
                     </div>
                 </div>
@@ -55,6 +56,12 @@ function MainPage() {
                         </div>
                     </div>
                 </Link>
+            </div>
+            <div>
+                <div className="mainpage-footer">
+                    <a href="https://github.com/officeshinyujun/workintroduce"><img src={Logomain} style={{width:"40px", height:"40px"}}/></a>
+                    <h5>source</h5>
+                </div>
             </div>
         </div>
     );

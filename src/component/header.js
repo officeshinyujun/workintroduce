@@ -6,14 +6,14 @@ function Header() {
     if (url === '/workintroduce'){
         what = 'syj_lego'
     }
-    else if (url === '/workintroduce/'){
+    else if (url === '/workintroduce/syj_lego'){
         what = 'syj_lego'
     }
     else if (url === '/workintroduce/wxvin'){
         what = 'wxvin'
     }
     else if (url === '/workintroduce/mangoo'){
-        what = 'mangoo'
+        what = 'jaewon'
     }
     else if (url === '/workintroduce/haedam'){
         what = 'haedam'
