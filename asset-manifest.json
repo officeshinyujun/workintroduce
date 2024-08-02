@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/workintroduce/static/css/main.47fefa27.css",
-    "main.js": "/workintroduce/static/js/main.58d8fccf.js",
+    "main.js": "/workintroduce/static/js/main.060e9dbe.js",
     "static/js/453.b4db66e3.chunk.js": "/workintroduce/static/js/453.b4db66e3.chunk.js",
     "static/media/20240303 121713.jpg": "/workintroduce/static/media/20240303 121713.48e373e266d94129d788.jpg",
     "static/media/sideView.jpg": "/workintroduce/static/media/sideView.e25e1d9fa00c8bd44a5e.jpg",
@@ -49,11 +49,11 @@
     "static/media/GitHub-Icon-White-Logo.wine.svg": "/workintroduce/static/media/GitHub-Icon-White-Logo.wine.ce47d33915b3c6f9ab217ae8b7a8118d.svg",
     "index.html": "/workintroduce/index.html",
     "main.47fefa27.css.map": "/workintroduce/static/css/main.47fefa27.css.map",
-    "main.58d8fccf.js.map": "/workintroduce/static/js/main.58d8fccf.js.map",
+    "main.060e9dbe.js.map": "/workintroduce/static/js/main.060e9dbe.js.map",
     "453.b4db66e3.chunk.js.map": "/workintroduce/static/js/453.b4db66e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47fefa27.css",
-    "static/js/main.58d8fccf.js"
+    "static/js/main.060e9dbe.js"
   ]
 }
