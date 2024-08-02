@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/workintroduce/static/css/main.d554129d.css",
-    "main.js": "/workintroduce/static/js/main.44f3229d.js",
-    "static/js/453.353b167c.chunk.js": "/workintroduce/static/js/453.353b167c.chunk.js",
+    "main.css": "/workintroduce/static/css/main.4d0109c8.css",
+    "main.js": "/workintroduce/static/js/main.f27728de.js",
+    "static/js/453.b4db66e3.chunk.js": "/workintroduce/static/js/453.b4db66e3.chunk.js",
     "static/media/20240303 121713.jpg": "/workintroduce/static/media/20240303 121713.48e373e266d94129d788.jpg",
     "static/media/sideView.jpg": "/workintroduce/static/media/sideView.e25e1d9fa00c8bd44a5e.jpg",
     "static/media/KakaoTalk_Photo_2024-07-31-17-34-46.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-17-34-46.5283af81a5dfef7141ae.jpeg",
@@ -31,12 +31,12 @@
     "static/media/KakaoTalk_Photo_2024-08-02-01-09-24 003.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-01-09-24 003.653a7fe9ea1802a17fb8.jpeg",
     "static/media/Instagram-Logo.wine.svg": "/workintroduce/static/media/Instagram-Logo.wine.22bda4c250235f5d99c5c75e2537147e.svg",
     "index.html": "/workintroduce/index.html",
-    "main.d554129d.css.map": "/workintroduce/static/css/main.d554129d.css.map",
-    "main.44f3229d.js.map": "/workintroduce/static/js/main.44f3229d.js.map",
-    "453.353b167c.chunk.js.map": "/workintroduce/static/js/453.353b167c.chunk.js.map"
+    "main.4d0109c8.css.map": "/workintroduce/static/css/main.4d0109c8.css.map",
+    "main.f27728de.js.map": "/workintroduce/static/js/main.f27728de.js.map",
+    "453.b4db66e3.chunk.js.map": "/workintroduce/static/js/453.b4db66e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d554129d.css",
-    "static/js/main.44f3229d.js"
+    "static/css/main.4d0109c8.css",
+    "static/js/main.f27728de.js"
   ]
 }
