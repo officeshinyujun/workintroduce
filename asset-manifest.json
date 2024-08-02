@@ -1,12 +1,28 @@
 {
   "files": {
-    "main.css": "/workintroduce/static/css/main.4d0109c8.css",
-    "main.js": "/workintroduce/static/js/main.f27728de.js",
+    "main.css": "/workintroduce/static/css/main.47fefa27.css",
+    "main.js": "/workintroduce/static/js/main.58d8fccf.js",
     "static/js/453.b4db66e3.chunk.js": "/workintroduce/static/js/453.b4db66e3.chunk.js",
     "static/media/20240303 121713.jpg": "/workintroduce/static/media/20240303 121713.48e373e266d94129d788.jpg",
     "static/media/sideView.jpg": "/workintroduce/static/media/sideView.e25e1d9fa00c8bd44a5e.jpg",
-    "static/media/KakaoTalk_Photo_2024-07-31-17-34-46.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-17-34-46.5283af81a5dfef7141ae.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-04-23 001.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-04-23 001.808bb33649a2e0e86fa8.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 005.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 005.ddbf5501b157f6bf603c.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-31 001.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-31 001.dab492395af082eb5a26.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 009.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 009.6877fcdf3b2ccc3b6cde.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 003.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 003.d7a13ead5898bbe3c02c.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 004.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 004.021731e4346f2a805c4d.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 008.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 008.a815cf97873cffd2b63b.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-31 002.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-31 002.7d08d1e437ea9132065e.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 011.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 011.f219dbc47c2801cc3c9d.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 010.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 010.6125b531fc1032e545a4.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 007.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 007.b2efb30a929f1df28f6a.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-04-23 004.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-04-23 004.fbd4fc1ccd058f50486c.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-04-23 006.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-04-23 006.b4b5d7076e0da4d8585b.jpeg",
     "static/media/KakaoTalk_Photo_2024-07-31-22-47-48 002.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-48 002.3b6e418264e67bde42e5.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-04-23 003.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-04-23 003.08a340362ac709605468.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-04-23 005.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-04-23 005.6453b836ee30f2526972.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-04-23 002.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-04-23 002.3d044b34dd7ced154775.jpeg",
+    "static/media/KakaoTalk_Photo_2024-08-02-22-05-32 006.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-22-05-32 006.c8fa46982a5da98f5d45.jpeg",
     "static/media/KakaoTalk_Photo_2024-08-01-00-22-38.png": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-01-00-22-38.ee14ef708efa9ab7ef0f.png",
     "static/media/KakaoTalk_Photo_2024-07-31-22-47-31 001.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-07-31-22-47-31 001.bc96c343804c1455ebb1.jpeg",
     "static/media/KakaoTalk_Photo_2024-08-01-00-22-25 003.png": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-01-00-22-25 003.044bb52591434164b0e8.png",
@@ -30,13 +46,14 @@
     "static/media/KakaoTalk_Photo_2024-08-02-01-09-24 001.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-01-09-24 001.3ed743e8e889348fccfa.jpeg",
     "static/media/KakaoTalk_Photo_2024-08-02-01-09-24 003.jpeg": "/workintroduce/static/media/KakaoTalk_Photo_2024-08-02-01-09-24 003.653a7fe9ea1802a17fb8.jpeg",
     "static/media/Instagram-Logo.wine.svg": "/workintroduce/static/media/Instagram-Logo.wine.22bda4c250235f5d99c5c75e2537147e.svg",
+    "static/media/GitHub-Icon-White-Logo.wine.svg": "/workintroduce/static/media/GitHub-Icon-White-Logo.wine.ce47d33915b3c6f9ab217ae8b7a8118d.svg",
     "index.html": "/workintroduce/index.html",
-    "main.4d0109c8.css.map": "/workintroduce/static/css/main.4d0109c8.css.map",
-    "main.f27728de.js.map": "/workintroduce/static/js/main.f27728de.js.map",
+    "main.47fefa27.css.map": "/workintroduce/static/css/main.47fefa27.css.map",
+    "main.58d8fccf.js.map": "/workintroduce/static/js/main.58d8fccf.js.map",
     "453.b4db66e3.chunk.js.map": "/workintroduce/static/js/453.b4db66e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d0109c8.css",
-    "static/js/main.f27728de.js"
+    "static/css/main.47fefa27.css",
+    "static/js/main.58d8fccf.js"
   ]
 }
