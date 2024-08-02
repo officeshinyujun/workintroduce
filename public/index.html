@@ -12,8 +12,8 @@
 <script>
   (function() {
     var currentLocation = window.location.pathname;
-    if (!currentLocation.startsWith('/workintroduce')) {
-      window.location.href = '/workintroduce' + currentLocation;
+    if (!currentLocation.startsWith('/')) {
+      window.location.href =  currentLocation;
     }
   })();
 </script>

@@ -8,13 +8,13 @@ import Comment from "./pages/comment";
 
 function App() {
     return (
-        <BrowserRouter basename="/workintroduce">
+        <BrowserRouter >
             <Routes>
-                <Route path="/" element={<MainPage />} />
-                <Route path="/wxvin" element={<WxvinPage />} />
-                <Route path="/mangoo" element={<MangooPage />} />
-                <Route path="/haedam" element={<HaedamPage />} />
-                <Route path="/comment" element={<Comment />} />
+                <Route path="/workintroduce/" element={<MainPage />} />
+                <Route path="/workintroduce/wxvin" element={<WxvinPage />} />
+                <Route path="/workintroduce/mangoo" element={<MangooPage />} />
+                <Route path="/workintroduce/haedam" element={<HaedamPage />} />
+                <Route path="/workintroduce/comment" element={<Comment />} />
             </Routes>
         </BrowserRouter>
     );
