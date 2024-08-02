@@ -109,7 +109,7 @@ function Syj_legoPage() {
             <div className="footer">
                 <h3>other creaters</h3>
                 <p><Link to={"/workintroduce/wxvin"} style={{textDecoration:"none", color:"white"}}>wxvin's work</Link></p>
-                <p><Link to={"/workintroduce/mangoo"} style={{textDecoration:"none", color:"white"}}>mangoo's work</Link></p>
+                <p><Link to={"/workintroduce/mangoo"} style={{textDecoration:"none", color:"white"}}>jaewon's work</Link></p>
                 <p><Link to={"/workintroduce/haedam"} style={{textDecoration:"none", color:"white"}}>headam's work</Link></p>
             </div>
 

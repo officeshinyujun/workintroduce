@@ -90,7 +90,7 @@ function MainPage() {
             <div className="footer">
                 <h3>other creaters</h3>
                 <p><Link to={"/workintroduce/syj_lego"} style={{textDecoration:"none", color:"white"}}>syj_lego's work</Link></p>
-                <p><Link to={"/workintroduce/mangoo"} style={{textDecoration:"none", color:"white"}}>mangoo's work</Link></p>
+                <p><Link to={"/workintroduce/mangoo"} style={{textDecoration:"none", color:"white"}}>jaewon's work</Link></p>
                 <p><Link to={"/workintroduce/haedam"} style={{textDecoration:"none", color:"white"}}>headam's work</Link></p>
             </div>
 
