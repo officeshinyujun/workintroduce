@@ -27,7 +27,7 @@ function MainPage() {
                 </Link>
             </div>
             <div>
-                <Link to="/workintroduce/mangoo">
+                <Link to="/workintroduce/syj_lego">
                     <div className="thisisimage2">
                         <div className="imagebase2">
                             <h1  style={{color:"white" ,marginLeft:"20px"}}>syj_lego's</h1>
@@ -37,7 +37,7 @@ function MainPage() {
                 </Link>
             </div>
             <div>
-                <Link to="/workintroduce/mangoo">
+                <Link to="/workintroduce/wxvin">
                     <div className="thisisimage3">
                         <div className="imagebase">
                             <h1  style={{color:"white" ,marginRight:"20px"}}>vinjas's</h1>
@@ -47,7 +47,7 @@ function MainPage() {
                 </Link>
             </div>
             <div>
-                <Link to="/workintroduce/mangoo">
+                <Link to="/workintroduce/haedam">
                     <div className="thisisimage4">
                         <div className="imagebase2">
                             <h1  style={{color:"white" ,marginLeft:"20px"}}>haedam's</h1>
